@@ -1,0 +1,9 @@
+<div class="event">
+  <div class="content">
+    <div class="summary">
+        <em class="ui <%= @colors[message.user_id] %> label center aligned fixed-width-label">
+          <%= (message.user.username).capitalize %></em>: 
+          <%= message.body%>
+    </div>
+  </div>
+</div>

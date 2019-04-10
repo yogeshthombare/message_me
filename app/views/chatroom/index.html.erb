@@ -8,34 +8,7 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui feed">
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-                <em class='ui green label'>Bhagwan</em>: Test Message 1
-            </div>
-          </div>
-        </div>
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-                <em class='ui blue label'>Nikhil</em>: Test Message 2
-            </div>
-          </div>
-        </div>
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-                <em class='ui red label'>Oren</em>: Test Message 3
-            </div>
-          </div>
-        </div>
-        <div class="event">
-          <div class="content">
-            <div class="summary">
-                <em class='ui brown label'>Christian Rocha</em>: Test Message 4
-            </div>
-          </div>
-        </div>
+          <%= render @messages %>
        </div>
       </div>
       <div class="extra content">
